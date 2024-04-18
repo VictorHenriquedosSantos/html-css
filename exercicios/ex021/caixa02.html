@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            font-weight: bold;
+        }
+
+       header {
+        background-color: rgba(19, 0, 186, 0.801);
+        padding: 10px;
+        margin: 20px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.454);
+       }
+
+       nav {
+        background-color: black;
+        padding: 3px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.598);
+       }
+
+       nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin: 140px;
+       }
+
+       nav > a:hover {
+        text-decoration: underline;
+       }
+
+       main {
+        background-color: white;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 10px;
+       }
+
+      #assuntos {
+        background-color: rgba(144, 82, 116, 0.589);
+        padding: 3px;
+        text-align: center;
+        border-radius: 3px;
+       }
+
+       article {
+        background-color: rgba(19, 0, 186, 0.801);
+        padding: 5px;
+       }
+
+       article > aside {
+        background-color: rgba(5, 13, 243, 0.249);
+        text-align: center;
+       }
+
+       footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+       }
+
+       #assuntos > p {
+        font-size: 1.5em;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+       }
+
+       article > p {
+        text-align: justify;
+       }
+
+       footer > p {
+        margin: 0px;
+       }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Futebol Corrida Tiro</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Esporte pelo Mundo!</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad repudiandae doloribus incidunt amet placeat in? Expedita exercitationem dolorum optio, incidunt doloremque ullam libero omnis recusandae eum aliquid voluptates placeat nesciunt.</p>
+                <aside>
+                  <p>Matéria por Victor Pontes</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+        <footer>
+            <p>Aqui está alguns dos meus sites</p>
+        </footer>
+</body>
+</html>

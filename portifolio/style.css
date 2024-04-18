@@ -1,0 +1,131 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    color: #fff;
+    background-color: #e9ff99;
+    background-image: rbg(2, 0, 34);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1)0%, rgba(9, 9, 121, 1)35%, rgba(0, 212, 255, 1) 100%);
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.glass-container{
+    display: block;
+    max-width: 72vh;
+    margin-top: 10vh;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, 0.56);
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: o 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+}
+
+.logo {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+ul.nav-links {
+    margin: 0;
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+li.nav-link {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.content {
+    display: flex;
+    width: 100px;
+}
+
+.main {
+    margin-top: 10vh;
+    display: inline-block;
+    padding: 20px;
+}
+
+.main h2 {
+    font-size: 35px;
+}
+
+.main p{
+    font-size: 16px;
+    line-height: 23px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    border-color: #000000;
+    background-color: #2668db;
+}
+
+.image-wrapper{
+    display: flex;
+    margin-top: 5hv;
+    position: relative;
+}
+
+.image-wrapper img{
+    max-width: 500px;
+}
+
+@media screen and (max-widht: 1075px){
+    .content{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-widht: 720px){
+    .logo{
+        font-size: 72px;
+    }
+}
+
+li.nav-linl {
+    font-size: 13px;
+}
+.main h2{
+    font-size: 28px;
+}
+main p{
+    font-size: 15px;
+}
+button {
+    font-size: 13px;
+}
+.image-wrapper img{
+    max-width: 400px;
+}

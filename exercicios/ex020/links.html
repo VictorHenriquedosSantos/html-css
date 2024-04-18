@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+           
+        }
+
+        .especial {
+            background-color: black;
+            color: white
+        }
+
+        a{
+            color: blue;
+            text-decoration: none;
+        }
+        
+        a:visited {
+            color: rgb(130, 130, 189);
+        }
+
+        a:active{
+            color: red;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a::after {
+            content: ' Like';
+        }
+
+        a::before {
+            content: ' veja ';
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/_victorh.012/" target="_blank" class="especial">Meu instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/victor-h-s-pontes-5028832b2/" target="_blank" class="especial">Meu perfil do LinkdIn</a></li>
+    </ul>
+</body>
+</html>
